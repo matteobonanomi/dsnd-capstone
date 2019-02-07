@@ -1,3 +1,9 @@
 /data/*.csv
 /saved_session/*.pkl
 /saved_session/*.dill
+/notebook/*csv
+/notebook/*pkl
+/notebook/*dill
+*csv
+*pkl
+*dill
