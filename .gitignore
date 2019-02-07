@@ -1,0 +1,3 @@
+/data/*.csv
+/saved_session/*.pkl
+/saved_session/*.dill
