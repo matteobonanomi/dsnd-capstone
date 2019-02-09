@@ -1,9 +1,5 @@
 /data/*.xls
 /data/*.xlsx
-/saved_session/*.dill
 /notebook/*csv
 /notebook/*pkl
 /notebook/*dill
-*csv
-*pkl
-*dill
