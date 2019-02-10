@@ -2,7 +2,7 @@
 
 This repo provides a sample code that analyses market data from [Nord Pool Electricity Market](https://www.nordpoolgroup.com/) and develop a Machine Learning model for price forecasting. 
 
-The aim of the work is to understand the feasibility of Long Short term Memory Neural Networks for Time Series Forecasting. This is a state-of-the-art algorithm, compared to classic ARIMA approach, that may lead to important benefits in terms of forecast performance.
+The aim of the work is to understand the feasibility of Long Short Term Memory Neural Networks for Time Series Forecasting when dealing with electricity market analysis. This is a state-of-the-art algorithm, compared to classic ARIMA approach, that may lead to important benefits in terms of forecast performance.
 
 ## Getting Started
 
@@ -17,6 +17,7 @@ git clone https://github.com/matteobonanomi/dsnd-capstone.git
 ```
 
 ### Download the dataset
+
 You have two possibilities:
 
 1. Download the original dataset from the historical data download page: [Market Data by Nord Pool](https://www.nordpoolgroup.com/historical-market-data/). You can select any dataset you want. This analysis is performaned using huorly market price data from 2013 to 2018.
@@ -36,6 +37,10 @@ The content of each notebook is breifly explained:
 1. **BASELINE** notebook. A simple persistence model is set as a benchmark for predicting huorly electricity price.
 2. **LSTM** notebook. An advanced LSTM model is developed using Keras library. Its performance are assessed with different forecast time horizons. A comparison with baseline allows to understand the benefits of the model. 
 
+### My article on Medium
+
+For an high-level document summarizing the most relevent results from this analysis, please refer to thi [Story on Medium](https://medium.com/@mbonanomi/hourly-electricity-price-forecasting-using-long-short-term-memory-neural-networks-814ceac517b0).
+
 ## Built With
 
 * [Python](https://www.python.org/) - Python programming language
@@ -53,10 +58,13 @@ We use [Git](https://git-scm.com/) for versioning. Look for new available versio
 
 ## License
 
-* This project is licensed under the GPL v3 License - see the [LICENSE.md](LICENSE.md) file for details
+* This project is licensed under the GPL v3 License - see the [LICENSE.txt](LICENSE) file for details
 
 ## Acknowledgments
 
 * Acknowledgement is given to [Nord Pool](https://www.nordpoolgroup.com/) for providing such an extensive and uncommonly clean dataset
 
-
+## Documentation
+* [Medium Story](https://medium.com/@mbonanomi/hourly-electricity-price-forecasting-using-long-short-term-memory-neural-networks-814ceac517b0) about this code
+* [YouTube lesson](https://www.youtube.com/watch?v=WCUNPb-5EYI) A simple LSTM practical explanation
+* [MachineLearningMastery.com](https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/) A wonderful website containing many sample codes to learn LSTM applied to different scenarios
